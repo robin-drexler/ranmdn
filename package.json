@@ -1,0 +1,18 @@
+{
+  "name": "ranmdn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "^9.1.0",
+    "node-fetch": "^1.7.3",
+    "random-item": "^1.0.0",
+    "xml2json": "^0.11.0"
+  },
+  "devDependencies": {
+    "micro-dev": "^2.2.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
