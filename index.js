@@ -10,7 +10,7 @@ const getRandomItem = require('random-item');
   const sitemap = JSON.parse(xml2json.toJson(sitemapXML));
 
   const urls = sitemap.urlset.url.reduce((urls, { loc }) => {
-    if (!loc.includes('/docs/Archive')) {
+    if (loc.includes('/docs/Web')) {
       urls.push(loc);
     }
 
